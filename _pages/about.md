@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Postdoctoral Researcher, Leibniz Institut fur Astrophysik Potsdam (AIP), Germany</a>
+subtitle: <a href='#'>Postdoctoral Researcher</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office: HH/010</p>
+    <p>Leibniz-Institut für Astrophysik Potsdam (AIP)</p>
+    <p>An der Sternwarte 16, 14482 Potsdam, Germany</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
