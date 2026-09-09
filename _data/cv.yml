@@ -4,7 +4,7 @@ cv:
   email: amandal@aip.de
   location: Potsdam, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: I am a computational astrophysicist specializing in self-gravitating astrophysical flows, protoplanetary disks, gravitational instability, and high-performance numerical methods. My current research combines global hydrodynamic and magnetohydrodynamic simulations with the development of numerical methods for self-gravity, with a particular focus on disk fragmentation, planet formation, and the thermal and magnetic regulation of gravitational instability. My broader research experience spans molecular clouds, turbulence-regulated star formation, and AGN feedback.
 
   social_networks:
     - network: X
@@ -35,22 +35,28 @@ cv:
           - Developed a novel subgrid framework for estimating star formation rates in large-scale simulations, incorporating the effects of local gas turbulence and thermodynamics beyond conventional density-threshold-based prescriptions prescriptions.
           - Developed numerical infrastructure for self-gravity and star-formation modelling, including Poisson solvers, sink particles for gravitationally collapsing structures, and a subgrid star-cluster formation module.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
+      - institution: Indian Institute of Technology Kanpur (IITK)
+        location: Kanpur, India
         area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+        studyType: Master's degree
+        start_date: 2017
+        end_date: 2019
         highlights:
-          - Description 1.
-          - Description 2.
+
+      - institution: Ramakrishna Mission Residential College, Narendrapur
+        location: Kolkata, India
+        area: Physics
+        studyType: Bachelor's degree
+        start_date: 2014
+        end_date: 2017
+        highlights: Gold Medal for ranking first in the graduating class.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
+      - company: Leibniz Institute for Astrophysics Potsdam (AIP)
+        position: Postdoctoral Researcher
+        location: Potsdam, Germany
+        start_date: 2024
+        end_date: present
         summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         highlights:
           - Relativity
