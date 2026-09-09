@@ -15,26 +15,25 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: An der Sternwarte 16
+    city: Potsdam
+    region: Babelsberg
+    postalCode: 14482
+    countryCode: Germany
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Inter-University Centre for Astronomy and Astrophysics (IUCAA)
+        location: Pune, India
+        url: https://www.iucaa.in/en
+        area: Astrophysics
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2019
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - Studied the impact of AGN-driven outflows and relativistic jets on multiphase gas, molecular clouds, turbulence, and star formation.
+          - Developed a novel subgrid framework for estimating star formation rates in large-scale simulations, incorporating the effects of local gas turbulence and thermodynamics beyond conventional density-threshold-based prescriptions prescriptions.
+          - Developed numerical infrastructure for self-gravity and star-formation modelling, including Poisson solvers, sink particles for gravitationally collapsing structures, and a subgrid star-cluster formation module.
 
       - institution: Eidgenössische Technische Hochschule
         location: Zurich, Switzerland
