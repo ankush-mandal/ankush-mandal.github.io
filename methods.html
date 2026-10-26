@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Academic website of Ankush Mandal, computational astrophysicist.">
+  <title>
+    Methods & Software | Ankush Mandal
+  </title>
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="brand-mark">AM</span><span>Ankush Mandal</span></a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="research.html" class="">Research</a>
+      <a href="methods.html" class="">Methods & Software</a>
+      <a href="publications.html" class="">Publications</a>
+      <a href="cv.html" class="">CV</a>
+      <a href="teaching.html" class="">Teaching</a>
+      <a href="about.html" class="">About</a>
+      <a href="contact.html" class="">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" data-theme-toggle aria-label="Toggle theme">◐</button>
+      <button class="menu-btn" data-menu-toggle aria-label="Open navigation">☰</button>
+    </div>
+  </div>
+</header><main>
+<section class="page-hero"><div class="container"><span class="eyebrow">Methods & Software</span><h1>Numerical development</h1>
+<p>A dedicated home for algorithms, numerical modules, code development, validation tests, and computational infrastructure. This separates the question “what physics do I study?” from “what tools have I built?”</p></div></section>
+
+<section class="section"><div class="container grid two">
+  <article class="card method-card">
+    <div class="method-kicker">Self-gravity</div>
+    <h2>Spectral–multigrid Poisson solver</h2>
+    <p>A fast self-gravity solver for cylindrical and spherical geometries, combining Fourier decomposition in azimuth with geometric multigrid in the remaining two dimensions.</p>
+    <ul class="tech-list"><li>Finite-volume discretization in curvilinear coordinates</li><li>MPI-parallel multigrid</li><li>FFTW-based spectral decomposition</li><li>Integrated into PLUTO</li></ul>
+  </article>
+  <article class="card method-card">
+    <div class="method-kicker">Self-gravity</div>
+    <h2>Cartesian Poisson solver</h2>
+    <p>A three-dimensional multigrid Poisson solver for Cartesian meshes, including Runge-Kutta-Legendre acceleration for relaxation-based gravity calculations.</p>
+  </article>
+  <article class="card method-card">
+    <div class="method-kicker">Star formation</div>
+    <h2>Sink particles</h2>
+    <p>A sink-particle module for modelling gravitationally bound collapsing objects, designed for self-gravitating astrophysical simulations.</p>
+  </article>
+  <article class="card method-card">
+    <div class="method-kicker">Subgrid physics</div>
+    <h2>Turbulence-regulated star-cluster model</h2>
+    <p>A subgrid framework for estimating star formation using local turbulence and thermodynamics rather than a simple density threshold.</p>
+  </article>
+  <article class="card method-card">
+    <div class="method-kicker">Analysis</div>
+    <h2>Parallel FellWalker / ClumpFind</h2>
+    <p>A parallel structure-identification algorithm for finding and characterizing dense structures in multidimensional simulation data.</p>
+  </article>
+  <article class="card method-card">
+    <div class="method-kicker">Code development</div>
+    <h2>PLUTO development</h2>
+    <p>Extensive development and extension of PLUTO, including hydrodynamic/MHD algorithms, reconstruction, Riemann solvers, time integration, parallel decomposition, and new physics modules.</p>
+  </article>
+</div></section>
+
+<section class="section alt"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">Computational stack</span><h2>Scientific computing</h2></div><p>Keep this section concise; it should support the development story rather than read like a software-keyword list.</p></div>
+  <div class="tag-row"><span class="tag">C / C++</span><span class="tag">Python</span><span class="tag">Fortran</span><span class="tag">MPI</span><span class="tag">OpenMP</span><span class="tag">CUDA</span><span class="tag">FFTW</span><span class="tag">cuFFT</span><span class="tag">GSL</span><span class="tag">PLUTO</span><span class="tag">FLASH</span><span class="tag">VisIt</span><span class="tag">ParaView</span></div>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container footer-row">
+    <div>© <span data-year></span> Ankush Mandal.</div>
+
+    <div class="social-links">
+
+      <a href="mailto:amandal@aip.de"
+         aria-label="Email"
+         title="Email">
+        <img src="assets/icons/email.png" alt="Email">
+      </a>
+
+      <a href="https://orcid.org/0000-0002-0912-8081"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="ORCID"
+         title="ORCID">
+        <img src="assets/icons/orcid.png" alt="ORCID">
+      </a>
+
+      <a href="https://scholar.google.com/citations?user=wnBmoNkAAAAJ&hl=en"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Google Scholar"
+        title="Google Scholar">
+        <img class="scholar-logo"
+            src="assets/icons/scholar.png"
+            alt="Google Scholar">
+      </a>
+
+      <a href="YOUR-GITHUB-URL"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="GitHub"
+         title="GitHub">
+        <img src="assets/icons/github.png" alt="GitHub">
+      </a>
+
+    </div>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body></html>

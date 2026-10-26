@@ -1,0 +1,2 @@
+Add your portrait here with the filename: profile.jpg
+Recommended crop: vertical / approximately 4:5 aspect ratio.

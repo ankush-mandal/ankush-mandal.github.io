@@ -1,0 +1,1 @@
+Add hero-background.jpg to this directory.
